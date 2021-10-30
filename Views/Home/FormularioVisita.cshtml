@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FormularioVisita</title>
+</head>
+<body>
+    <div> 
+        <form method="post" action="/Home/CargaDatos">
+            <p>Nombre:<input type="text" name="nombre" /></p>
+            <p>Comentarios</p><br />
+            <textaerea rows="10" cols="120" name="comentarios"></textaerea>
+            <p><input type="submit" value="Confirmar" /></p>
+        </form>
+    </div>
+</body>
+</html>
